@@ -1,14 +1,25 @@
-a{
-    font-size: larger;
-    font-weight: bold;
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
 }
-h3{
-    color: darkblue
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: rgb(242, 255, 242);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-html {
-    box-sizing: border-box;
+
+a {
+    font-size: larger;
+    font-weight: bold;
+}
+.home-button{
+    margin: 10px 0 0 6px;
+    display: inline-block;
+}
+h3{
+    color: darkblue
 }
