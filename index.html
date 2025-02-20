@@ -5,13 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel = "stylesheet" href="./styles.css">
+    <style>
+        li{
+            margin-bottom: 1rem;
+        }
+        a{
+            background-color: rgb(58, 80, 78);
+            padding: .3rem;
+            color: rgb(122, 214, 206);
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        a:hover{
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/duch-brownies.html">Duch's Godlike Brownies</a></li>
-        <li><a href="./recipes/apple-cider-chicken.html">Chef John's Apple Cider Chicken</a></li>
-        <li><a href="./recipes/watermelon.html">Tom Willett's Watermelon</a></li>
-    </ul>
+    <div id="index-card">
+        <h1 style="margin-bottom: .5em;">Odin Recipes</h1>
+        <p>The famous brownie recipe of Duch which defined an entire generation!</p>
+        <div class = 'index-link'><a href="./recipes/duch-brownies.html">Duch's Godlike Brownies</a></div>
+        <p>Chef John from FoodWishes.com presents the most glorious chicken recipe that ever was!</p>
+        <div class = 'index-link'><a href="./recipes/apple-cider-chicken.html">Chef John's Apple Cider Chicken</a></div>
+        <p>Tom Willett - the Featureman Himself - guides watermelon students around the globe with regards to the proper technique of consuming watermelon.</p>
+        <div class = 'index-link'><a href="./recipes/watermelon.html">Tom Willett's Watermelon</a></div>
+</div>
 </body>
 </html>

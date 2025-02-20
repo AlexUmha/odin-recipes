@@ -3,10 +3,12 @@
 *::before{
     box-sizing: border-box;
 }
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: rgb(242, 255, 242);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,10 +18,25 @@ a {
     font-size: larger;
     font-weight: bold;
 }
+
+h3{
+    color: darkblue
+}
+
 .home-button{
     margin: 10px 0 0 6px;
     display: inline-block;
 }
-h3{
-    color: darkblue
+
+#index-card{
+    background-color: rgb(84, 209, 199);
+    width: 40rem;
+    height: 30rem;
+    margin: 12px auto;
+    text-align: center;
+    padding: .5rem 3rem;
+    border-radius: 6px;
+}
+.index-link{
+    margin:.5em 0 1.5em 0;
 }
