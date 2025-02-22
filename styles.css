@@ -23,15 +23,9 @@ h3{
     color: darkblue
 }
 
-.home-button{
-    margin: 10px 0 0 6px;
-    display: inline-block;
-}
-
 #index-card{
     background-color: rgb(84, 209, 199);
-    width: 40rem;
-    height: 30rem;
+    max-width: 40rem;
     margin: 12px auto;
     text-align: center;
     padding: .5rem 3rem;
@@ -40,3 +34,19 @@ h3{
 .index-link{
     margin:.5em 0 1.5em 0;
 }
+.index-link a{
+    background-color: rgb(58, 80, 78);
+    padding: .3rem;
+    color: rgb(122, 214, 206);
+    text-decoration: none;
+    border-radius: 6px;
+}
+.index-link a:hover{
+    opacity: 0.5;
+}
+
+.home-button{
+    margin: 10px 0 0 6px;
+    display: inline-block;
+}
+
